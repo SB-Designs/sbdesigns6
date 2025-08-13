@@ -99,7 +99,7 @@ const socialIcons = [
     src: "/assets/dev.png",
     alt: "DEV",
     className: "w-6 h-6",
-    link: "https://dev.to/sb-designs",
+    link: "https://dev.to/sbdesigns",
   },
   {
     src: "/assets/github.png",
