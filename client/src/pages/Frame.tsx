@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 const navigationItems = [
   { label: "Projects", href: "#projects" },
   { label: "Subsidiaries", href: "#subsidiaries" },
-  { label: "Docs", link: "https://sb-designs.gitbook.io" },
 ];
 
 const projectsData = [
@@ -89,9 +88,9 @@ const contactData = [
     link: "mailto:hello@sbdesigns.is-a.dev",
   },
   {
-    title: "WhatsApp",
-    info: "+447484828585",
-    link: "https://wa.me/447484828585",
+    title: "Learn More",
+    info: "Docs and Releases",
+    link: "https://sb-designs.gitbook.io",
   },
 ];
 
