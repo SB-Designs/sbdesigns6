@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const navigationItems = [
   { label: "Projects", href: "#projects" },
   { label: "Subsidiaries", href: "#subsidiaries" },
-  { label: "Docs", href: "https://sb-designs.gitbook.io" },
+  { label: "Docs", link: "https://sb-designs.gitbook.io" },
 ];
 
 const projectsData = [
