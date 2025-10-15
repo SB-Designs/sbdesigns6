@@ -86,7 +86,7 @@ export const Frame = (): JSX.Element => {
         </div>
       </header>
       {/* Projects Section */}
-      <div className="h-32" aria-hidden="true" />
+      <div className="h-16" aria-hidden="true" />
       <section id="projects" className="px-4 py-12">
         <div className={`max-w-sm lg:max-w-md mx-auto space-y-6 transition-all duration-1000 ${visibleSections.has('projects') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className={`text-2xl lg:text-3xl font-bold text-white transition-all duration-800 ${visibleSections.has('projects') ? 'animate-slide-in-left' : ''}`} data-testid="heading-projects">Media</h2>
