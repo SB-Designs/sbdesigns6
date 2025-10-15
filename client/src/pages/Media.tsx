@@ -140,67 +140,6 @@ export const Frame = (): JSX.Element => {
           </div>
         </div>
       </section>
-      {/* Subsidiaries Section */}
-      <section id="subsidiaries" className="px-4 py-12">
-        <div className={`max-w-sm lg:max-w-md mx-auto space-y-6 transition-all duration-1000 ${visibleSections.has('subsidiaries') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <h2 className={`text-2xl lg:text-3xl font-bold text-white transition-all duration-800 ${visibleSections.has('subsidiaries') ? 'animate-slide-in-left' : ''}`} data-testid="heading-subsidiaries">Subsidiaries</h2>
-          <div className="grid grid-cols-1 gap-4">
-            {subsidiariesData.map((subsidiary, index) => (
-              <Card
-                key={index}
-                className={`bg-slate-700/80 border-slate-600/60 overflow-hidden backdrop-blur-sm cursor-pointer hover:bg-slate-700/90 hover:border-slate-500/60 transition-all duration-500 shadow-lg hover:shadow-xl hover:scale-105 hover:-translate-y-2 ${visibleSections.has('subsidiaries') ? 'animate-slide-in-up' : 'opacity-0 translate-y-10'}`}
-                style={{ animationDelay: `${index * 150}ms` }}
-                data-testid={`card-subsidiary-${index}`}
-                onClick={() => window.open(subsidiary.link, '_blank')}
-              >
-                <CardContent className="p-4">
-                  <div className="flex items-center gap-4">
-                    <img
-                      className="w-14 h-14 rounded-xl object-cover flex-shrink-0 transition-transform duration-300 hover:scale-110"
-                      alt={subsidiary.title}
-                      src={subsidiary.image}
-                    />
-                    <div className="flex-1 min-w-0">
-                      <h3 className="font-bold text-base mb-1 text-white" data-testid={`text-subsidiary-title-${index}`}>
-                        {subsidiary.title}
-                      </h3>
-                      <p className="text-white/85 text-sm" data-testid={`text-subsidiary-description-${index}`}>
-                        {subsidiary.description}
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-      {/* Contact Section */}
-      <section id="contact" className="px-4 py-12">
-        <div className={`max-w-sm lg:max-w-md mx-auto space-y-6 transition-all duration-1000 ${visibleSections.has('contact') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <h2 className={`text-2xl lg:text-3xl font-bold text-white transition-all duration-800 ${visibleSections.has('contact') ? 'animate-slide-in-left' : ''}`} data-testid="heading-contact">Contact Us</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            {contactData.map((contact, index) => (
-              <Card
-                key={index}
-                className={`bg-slate-700/80 border-slate-600/60 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-1 cursor-pointer ${visibleSections.has('contact') ? 'animate-slide-in-up' : 'opacity-0 translate-y-10'}`}
-                style={{ animationDelay: `${index * 200}ms` }}
-                data-testid={`card-contact-${index}`}
-                onClick={() => window.open(contact.link, '_blank')}
-              >
-                <CardContent className="p-5 text-center">
-                  <h3 className="font-bold text-base mb-3 text-white" data-testid={`text-contact-title-${index}`}>
-                    {contact.title}
-                  </h3>
-                  <p className="text-white/85 text-sm" data-testid={`text-contact-info-${index}`}>
-                    {contact.info}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
       {/* Footer */}
       <footer className="px-4 py-12">
         <div className="max-w-sm lg:max-w-md mx-auto text-center space-y-6">
