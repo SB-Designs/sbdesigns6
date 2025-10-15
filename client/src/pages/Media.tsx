@@ -2,10 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-const navigationItems = [
-  { label: "Explore Our Media", href: "#projects" },
-];
-
 const projectsData = [
   {
     title: "Wallpapers",
@@ -89,18 +85,10 @@ export const Frame = (): JSX.Element => {
           </div></a>
         </div>
       </header>
-      {/* Hero Section - Full Height */}
-      <section className="min-h-screen flex items-center justify-center px-4 text-center relative overflow-hidden">
-        <div className={`max-w-lg lg:max-w-xl mx-auto space-y-8 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <h1 className={`text-4xl lg:text-6xl xl:text-7xl font-bold leading-tight text-white transition-all duration-1200 ${isVisible ? 'animate-fade-in-up' : ''}`}>
-            Media
-          </h1>
-        </div>
-      </section>
       {/* Projects Section */}
       <section id="projects" className="px-4 py-12">
         <div className={`max-w-sm lg:max-w-md mx-auto space-y-6 transition-all duration-1000 ${visibleSections.has('projects') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <h2 className={`text-2xl lg:text-3xl font-bold text-white transition-all duration-800 ${visibleSections.has('projects') ? 'animate-slide-in-left' : ''}`} data-testid="heading-projects">Projects</h2>
+          <h2 className={`text-2xl lg:text-3xl font-bold text-white transition-all duration-800 ${visibleSections.has('projects') ? 'animate-slide-in-left' : ''}`} data-testid="heading-projects">Media</h2>
           <div className="grid grid-cols-1 gap-4">
             {projectsData.map((project, index) => (
               <Card
