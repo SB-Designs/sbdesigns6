@@ -86,6 +86,7 @@ export const Frame = (): JSX.Element => {
         </div>
       </header>
       {/* Projects Section */}
+      <br><br><br><br><br><br><br><br>
       <section id="projects" className="px-4 py-12">
         <div className={`max-w-sm lg:max-w-md mx-auto space-y-6 transition-all duration-1000 ${visibleSections.has('projects') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className={`text-2xl lg:text-3xl font-bold text-white transition-all duration-800 ${visibleSections.has('projects') ? 'animate-slide-in-left' : ''}`} data-testid="heading-projects">Media</h2>
@@ -100,11 +101,6 @@ export const Frame = (): JSX.Element => {
               >
                 <CardContent className="p-4">
                   <div className="flex items-center gap-4">
-                    <img
-                      className="w-14 h-14 rounded-xl object-cover flex-shrink-0 transition-transform duration-300 hover:scale-110"
-                      alt={project.title}
-                      src={project.image}
-                    />
                     <div className="flex-1 min-w-0">
                       <h3 className="font-bold text-base mb-1 text-white" data-testid={`text-title-${index}`}>
                         {project.title}
