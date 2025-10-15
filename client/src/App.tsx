@@ -4,7 +4,7 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
-import Media from "@/pages/media";
+import Media from "@/pages/Media";
 
 import { Frame } from "@/pages/Frame";
 
