@@ -92,6 +92,16 @@ const contactData = [
     info: "Send us your feedback and suggestions.",
     link: "https://sbdesigns.userjot.com",
   },
+  {
+    title: "Status",
+    info: "See which services are up (or sadly down).",
+    link: "https://status.sbdesigns.is-a.dev",
+  },
+  {
+    title: "Media",
+    info: "Explore brand media made by us, for your use.",
+    link: "https://sbdesigns.is-a.dev/media",
+  },
 ];
 
 const socialIcons = [
