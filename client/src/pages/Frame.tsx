@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const navigationItems = [
   { label: "Projects", href: "#projects" },
-  { label: "Subsidiaries", href: "#subsidiaries" },
+  { label: "Companies", href: "#companies" },
 ];
 
 const projectsData = [
@@ -74,10 +74,28 @@ const subsidiariesData = [
     link: "https://point2point.pages.dev",
   },
   {
-    title: "Team Duneb",
-    description: "Joint venture with Sean FH.",
+    title: "Duneb Browser",
+    description: "A private browser subsidiary, wholly owned by SB Designs.",
     image: "/assets/duneb.png",
     link: "https://duneb.netlify.app",
+  },
+  {
+    title: "JetCast",
+    description: "Joint venture with Sean FH and TurquoiseTNT.",
+    image: "/assets/jetcast.png",
+    link: "https://jetcastpodcast.pages.dev",
+  },
+  {
+    title: "HeadQR",
+    description: "Developer for HeadQR. COMING SOON",
+    image: "/assets/headqr.png",
+    link: "#",
+  },
+  {
+    title: "Zenity",
+    description: "Developer for Zenity. COMING SOON",
+    image: "/assets/zenity.png",
+    link: "#",
   },
 ];
 
@@ -262,7 +280,7 @@ export const Frame = (): JSX.Element => {
       {/* Subsidiaries Section */}
       <section id="subsidiaries" className="px-4 py-12">
         <div className={`max-w-sm lg:max-w-md mx-auto space-y-6 transition-all duration-1000 ${visibleSections.has('subsidiaries') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <h2 className={`text-2xl lg:text-3xl font-bold text-white transition-all duration-800 ${visibleSections.has('subsidiaries') ? 'animate-slide-in-left' : ''}`} data-testid="heading-subsidiaries">Subsidiaries</h2>
+          <h2 className={`text-2xl lg:text-3xl font-bold text-white transition-all duration-800 ${visibleSections.has('subsidiaries') ? 'animate-slide-in-left' : ''}`} data-testid="heading-subsidiaries">Companies</h2>
           <div className="grid grid-cols-1 gap-4">
             {subsidiariesData.map((subsidiary, index) => (
               <Card
@@ -297,7 +315,7 @@ export const Frame = (): JSX.Element => {
       {/* Contact Section */}
       <section id="contact" className="px-4 py-12">
         <div className={`max-w-sm lg:max-w-md mx-auto space-y-6 transition-all duration-1000 ${visibleSections.has('contact') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <h2 className={`text-2xl lg:text-3xl font-bold text-white transition-all duration-800 ${visibleSections.has('contact') ? 'animate-slide-in-left' : ''}`} data-testid="heading-contact">Contact Us</h2>
+          <h2 className={`text-2xl lg:text-3xl font-bold text-white transition-all duration-800 ${visibleSections.has('contact') ? 'animate-slide-in-left' : ''}`} data-testid="heading-contact">More</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {contactData.map((contact, index) => (
               <Card
