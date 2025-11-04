@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const navigationItems = [
   { label: "Projects", href: "#projects" },
-  { label: "Companies", href: "#companies" },
+  { label: "Companies", href: "#subsidiaries" },
 ];
 
 const projectsData = [
