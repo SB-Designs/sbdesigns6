@@ -25,6 +25,14 @@ const projectsData = [
     link: "https://duneb.netlify.app",
   },
   {
+    title: "Echoes of a Dying World",
+    description: "A wellbeing and mental health app. (by HeadQR)",
+    image: "/assets/zenity.png",
+    status: "IN DEVELOPMENT",
+    statusColor: "bg-orange-500",
+    link: "https://github.com/headqr",
+  },
+  {
     title: "JetCast",
     description: "An aviation podcast and talk show",
     image: "/assets/jetcast.png",
@@ -63,6 +71,14 @@ const projectsData = [
     status: "BETA PROGRAMME",
     statusColor: "bg-green-500",
     link: "https://trackle.pages.dev",
+  },
+  {
+    title: "Zenity",
+    description: "A wellbeing and mental health app. (by Zenity Team)",
+    image: "/assets/zenity.png",
+    status: "IN DEVELOPMENT",
+    statusColor: "bg-orange-500",
+    link: "https://github.com/zenitydevs",
   },
 ];
 
