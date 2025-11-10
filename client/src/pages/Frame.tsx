@@ -26,8 +26,8 @@ const projectsData = [
   },
   {
     title: "Echoes of a Dying World",
-    description: "A wellbeing and mental health app. (by HeadQR)",
-    image: "/assets/zenity.png",
+    description: "An all new video game. (by HeadQR)",
+    image: "/assets/headqr.png",
     status: "IN DEVELOPMENT",
     statusColor: "bg-orange-500",
     link: "https://github.com/headqr",
