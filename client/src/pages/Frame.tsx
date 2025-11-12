@@ -97,15 +97,9 @@ const subsidiariesData = [
   },
   {
     title: "JetCast",
-    description: "Joint venture with Sean FH and TurquoiseTNT.",
+    description: "Joint venture with Wafi M and TurquoiseTNT.",
     image: "/assets/jetcast.png",
     link: "https://jetcastpodcast.pages.dev",
-  },
-  {
-    title: "Aviation Described",
-    description: "Producer at Sean FH's documentary. [COMING SOON]",
-    image: "/assets/aviationdescribed.png",
-    link: "#",
   },
   {
     title: "HeadQR",
