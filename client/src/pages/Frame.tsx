@@ -17,28 +17,12 @@ const projectsData = [
     link: "https://aeromix.pages.dev",
   },
   {
-    title: "Duneb",
-    description: "The most private browser. Ever.",
-    image: "/assets/duneb.png",
-    status: "IN DEVELOPMENT",
-    statusColor: "bg-orange-500",
-    link: "https://duneb.netlify.app",
-  },
-  {
     title: "Echoes of a Dying World",
     description: "An all new video game. (by HeadQR)",
     image: "/assets/headqr.png",
     status: "IN DEVELOPMENT",
     statusColor: "bg-orange-500",
     link: "https://github.com/headqr",
-  },
-  {
-    title: "JetCast",
-    description: "An aviation podcast and talk show",
-    image: "/assets/jetcast.png",
-    status: null,
-    statusColor: null,
-    link: "https://jetcastpodcast.pages.dev",
   },
   {
     title: "Pixl",
@@ -88,18 +72,6 @@ const subsidiariesData = [
     description: "Joint venture with TurquoiseTNT.",
     image: "/assets/point2point.png",
     link: "https://point2point.pages.dev",
-  },
-  {
-    title: "Duneb Browser",
-    description: "A private browser subsidiary, wholly owned by SB Designs.",
-    image: "/assets/duneb.png",
-    link: "https://duneb.netlify.app",
-  },
-  {
-    title: "JetCast",
-    description: "Joint venture with Wafi M and TurquoiseTNT.",
-    image: "/assets/jetcast.png",
-    link: "https://jetcastpodcast.pages.dev",
   },
   {
     title: "HeadQR",
