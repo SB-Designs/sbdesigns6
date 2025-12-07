@@ -198,7 +198,7 @@ export const Frame = (): JSX.Element => {
           <Button
             className="bg-teal-500 hover:bg-teal-600 text-white px-8 py-3 rounded-full text-base font-medium shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-1"
             data-testid="button-explore"
-            onClick={() => scrollToSection('https://trackle.pages.dev')}
+            onClick={() => scrollToSection('#projects')}
           >
             Explore
           </Button>
