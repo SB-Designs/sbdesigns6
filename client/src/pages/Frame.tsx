@@ -123,6 +123,12 @@ const socialIcons = [
     className: "w-6 h-6",
     link: "https://github.com/sb-designs",
   },
+  {
+    src: "/assets/ig.png",
+    alt: "Instagram",
+    className: "w-6 h-6",
+    link: "https://instagram.com/sbdesigns.dev",
+  },
 ];
 
 const scrollToSection = (href: string) => {
