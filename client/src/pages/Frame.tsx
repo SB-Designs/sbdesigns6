@@ -17,6 +17,14 @@ const projectsData = [
     link: "https://aeromix.pages.dev",
   },
   {
+    title: "Duneb Browser",
+    description: "The most private browser. Ever.",
+    image: "/assets/duneb.png",
+    status: "IN DEVELOPMENT",
+    statusColor: "bg-orange-500",
+    link: "https://duneb.netlify.app",
+  },
+  {
     title: "Echoes of a Dying World",
     description: "An all new video game. (by HeadQR)",
     image: "/assets/headqr.png",
