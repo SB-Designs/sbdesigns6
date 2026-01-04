@@ -49,6 +49,14 @@ const projectsData = [
     link: "https://sbphotos.pages.dev",
   },
   {
+    title: "ticketnow",
+    description: "A bus ticketing system.",
+    image: "/assets/ticketnow.png",
+    status: "IN DEVELOPMENT",
+    statusColor: "bg-orange-500",
+    link: "https://github.com/point2pointuk",
+  },
+  {
     title: "ThrustByte",
     description: "An aviation and tech blog.",
     image: "/assets/thrustbyte.png",
