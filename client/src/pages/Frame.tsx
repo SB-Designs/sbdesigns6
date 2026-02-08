@@ -124,40 +124,47 @@ const contactData = [
     link: "mailto:hello@sbdesigns.is-a.dev",
   },
   {
-    title: "Feedback Hub",
-    info: "Send us your feedback and suggestions.",
-    link: "https://sbdesigns.userjot.com",
-  },
-  {
     title: "Status",
     info: "See which services are up (or sadly down).",
     link: "https://status.sbdesigns.is-a.dev",
   },
   {
-    title: "Media",
-    info: "Explore brand media made by us, for your use.",
-    link: "https://sbdesigns.is-a.dev/media",
+    title: "Discord Server",
+    info: "Chat about anything, from transport, to coding, with fans and even our devs.",
+    link: "https://sbdev.zone.id/discord",
+  },
+
+  {
+    title: "Wallpapers",
+    info: "Download free wallpapers, made by us, to brighten up your devices!",
+    link: "https://sbdev.zone.id/wallpapers",
   },
 ];
 
 const socialIcons = [
   {
-    src: "/assets/dev.png",
-    alt: "DEV",
+    src: "/assets/dc.png",
+    alt: "Discord",
     className: "w-6 h-6",
-    link: "https://dev.to/sbdesigns",
+    link: "https://sbdev.zone.id/discord",
   },
   {
     src: "/assets/github.png",
     alt: "GitHub",
     className: "w-6 h-6",
-    link: "https://github.com/sb-designs",
+    link: "https://sbdev.zone.id/github",
   },
   {
-    src: "/assets/ig.png",
+    src: "/assets/instagram.png",
     alt: "Instagram",
-    className: "w-6 h-6",
-    link: "https://instagram.com/sbdesigns.dev",
+    className: "w-6 h-6 object-cover",
+    link: "https://sbdev.zone.id/instagram",
+  },
+  {
+    src: "/assets/yt.png",
+    alt: "YouTube",
+    className: "w-6 h-6 object-cover",
+    link: "https://sbdev.zone.id/youtube",
   },
 ];
 
