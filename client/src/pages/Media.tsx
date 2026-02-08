@@ -14,10 +14,10 @@ const projectsData = [
 
 const socialIcons = [
   {
-    src: "/assets/dev.png",
-    alt: "DEV",
+    src: "/assets/dc.png",
+    alt: "Discord",
     className: "w-6 h-6",
-    link: "https://dev.to/sbdesigns",
+    link: "https://discord.gg/dPGjJt4p",
   },
   {
     src: "/assets/github.png",
@@ -32,10 +32,10 @@ const socialIcons = [
     link: "https://instagram.com/sbdesigns.dev",
   },
   {
-    src: "/assets/youtube.png",
+    src: "/assets/yt.png",
     alt: "YouTube",
     className: "w-6 h-6 object-cover",
-    link: "https://youtube.com/@sbdesigns-dev",
+    link: "https://youtube.com/@sbdesignsdev",
   },
 ];
 
