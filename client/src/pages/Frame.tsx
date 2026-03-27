@@ -98,12 +98,6 @@ const subsidiariesData = [
     link: "https://point2point.is-a.dev",
   },
   {
-    title: "Antimony",
-    description: "Joint venture with Abieexe.",
-    image: "/assets/antimony.png",
-    link: "https://antimony.pages.dev",
-  },  
-  {
     title: "HeadQR",
     description: "Developer for HeadQR.",
     image: "/assets/headqr.png",
