@@ -141,33 +141,6 @@ const contactData = [
   },
 ];
 
-const socialIcons = [
-  {
-    src: "/assets/dc.png",
-    alt: "Discord",
-    className: "w-6 h-6",
-    link: "https://sbdev.zone.id/discord",
-  },
-  {
-    src: "/assets/github.png",
-    alt: "GitHub",
-    className: "w-6 h-6",
-    link: "https://sbdev.zone.id/github",
-  },
-  {
-    src: "/assets/instagram.png",
-    alt: "Instagram",
-    className: "w-6 h-6 object-cover",
-    link: "https://sbdev.zone.id/instagram",
-  },
-  {
-    src: "/assets/yt.png",
-    alt: "YouTube",
-    className: "w-6 h-6 object-cover",
-    link: "https://sbdev.zone.id/youtube",
-  },
-];
-
 const scrollToSection = (href: string) => {
   const element = document.querySelector(href);
   if (element) {
@@ -381,19 +354,6 @@ export const Frame = (): JSX.Element => {
             <span className="text-xl font-medium text-white">SB Designs</span>
           </div>
           <p className="text-white/80 text-sm animate-fade-in-up delay-200" data-testid="text-copyright">© SB Designs {new Date().getFullYear()}</p>
-          <div className="flex justify-center gap-4 animate-fade-in-up delay-400" data-testid="social-icons">
-            {socialIcons.map((icon, index) => (
-              <img
-                key={index}
-                className={`${icon.className} cursor-pointer hover:opacity-80 hover:scale-125 hover:rotate-12 transition-all duration-300 animate-bounce-in`}
-                style={{ animationDelay: `${index * 100 + 600}ms` }}
-                alt={icon.alt}
-                src={icon.src}
-                onClick={() => window.open(icon.link, '_blank')}
-                data-testid={`social-icon-${index}`}
-              />
-            ))}
-          </div>
         </div>
       </footer>
     </div>
