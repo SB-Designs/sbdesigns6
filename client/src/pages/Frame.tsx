@@ -75,7 +75,7 @@ const projectsData = [
   {
     title: "Wallpaper Collection",
     description: "Desktop and mobile wallpapers with our branding.",
-    image: "/assets/wallpaper.png,
+    image: "/assets/wallpaper.png",
     status: null,
     statusColor: null,
     link: "https://sbdev.zone.id/wallpapers",
