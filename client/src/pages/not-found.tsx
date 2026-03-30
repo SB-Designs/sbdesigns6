@@ -22,7 +22,7 @@ export default function NotFound(): JSX.Element {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-800 text-white font-['Kumbh_Sans'] overflow-x-hidden">
+    <div className="min-h-screen bg-slate-800 text-white font-['Kumbh_Sans'] overflow-x-hidden flex flex-col">
       {/* Fixed Header with Liquid Glass Effect */}
       <header className={`fixed top-0 left-0 right-0 z-50 px-4 py-4 transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}`}>
         <div className="flex items-center justify-between max-w-sm lg:max-w-md mx-auto bg-white/10 backdrop-blur-md rounded-full px-6 py-3 border border-white/20">
@@ -52,8 +52,8 @@ export default function NotFound(): JSX.Element {
         </div>
       </header>
 
-      {/* Hero Section - Full Height */}
-      <section className="min-h-screen flex items-center justify-center px-4 text-center relative overflow-hidden">
+      {/* Hero Section */}
+      <section className="flex-1 flex items-center justify-center px-4 text-center pt-20">
         <div className={`max-w-lg lg:max-w-xl mx-auto space-y-8 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h1 className={`text-4xl lg:text-6xl xl:text-7xl font-bold leading-tight text-white transition-all duration-1200 ${isVisible ? 'animate-fade-in-up' : ''}`}>
             404
@@ -62,7 +62,7 @@ export default function NotFound(): JSX.Element {
             Page Not Found
           </h2>
           <p className={`text-base lg:text-xl text-white/80 font-medium transition-all duration-1200 delay-200 ${isVisible ? 'animate-fade-in-up' : ''}`}>
-            Did you forget to add the page to the router?
+            Oops! It looks like you've wandered off the map. Let's get you back on track.
           </p>
           <Button
             className="bg-teal-500 hover:bg-teal-600 text-white px-8 py-3 rounded-full text-base font-medium shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-1"
@@ -71,11 +71,6 @@ export default function NotFound(): JSX.Element {
           >
             Back to Home
           </Button>
-        </div>
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-white/60 rounded-full mt-2 animate-scroll-indicator"></div>
-          </div>
         </div>
       </section>
 
