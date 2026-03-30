@@ -62,7 +62,7 @@ export default function NotFound(): JSX.Element {
             Page Not Found
           </h2>
           <p className={`text-base lg:text-xl text-white/80 font-medium transition-all duration-1200 delay-200 ${isVisible ? 'animate-fade-in-up' : ''}`}>
-            Oops! It looks like you've wandered off the map. Let's get you back on track.
+            Did you forget to add the page to the router?
           </p>
           <Button
             className="bg-teal-500 hover:bg-teal-600 text-white px-8 py-3 rounded-full text-base font-medium shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-1"
