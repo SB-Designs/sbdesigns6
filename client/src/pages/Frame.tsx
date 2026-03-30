@@ -130,9 +130,19 @@ const contactData = [
     link: "mailto:hello@sbdesigns.is-a.dev",
   },
   {
+    title: "Whatsapp",
+    info: "+447484828585",
+    link: "https://wa.me/+447484828585",
+  },
+  {
     title: "Status",
     info: "See which services are up (or sadly down).",
     link: "https://status.sbdesigns.is-a.dev",
+  },
+  {
+    title: "Become a Beta Tester",
+    info: "Help test our new apps, games, and more!",
+    link: "https://svdev.zone.id/tester",
   },
 ];
 
