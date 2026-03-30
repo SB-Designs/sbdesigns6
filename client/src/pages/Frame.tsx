@@ -142,7 +142,7 @@ const contactData = [
   {
     title: "Become a Beta Tester",
     info: "Help test our new apps, games, and more!",
-    link: "https://svdev.zone.id/tester",
+    link: "https://sbdev.zone.id/tester",
   },
 ];
 
