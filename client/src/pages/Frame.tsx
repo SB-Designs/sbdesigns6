@@ -41,14 +41,6 @@ const projectsData = [
     link: "https://github.com/headqr",
   },
   {
-    title: "Pixl",
-    description: "Desktop and mobile wallpapers.",
-    image: "/assets/pixl.png",
-    status: null,
-    statusColor: null,
-    link: "https://gopixl.pages.dev",
-  },
-  {
     title: "SB Photos",
     description: "Aviation and wildlife photography.",
     image: "/assets/sbphotos.png",
@@ -81,6 +73,14 @@ const projectsData = [
     link: "https://trackle.pages.dev",
   },
   {
+    title: "Wallpaper Collection",
+    description: "Desktop and mobile wallpapers with our branding.",
+    image: "/assets/wallpaper.png,
+    status: null,
+    statusColor: null,
+    link: "https://sbdev.zone.id/wallpapers",
+  },
+  {
     title: "Zenity",
     description: "A wellbeing and mental health app. (by Zenity Team)",
     image: "/assets/zenity.png",
@@ -99,15 +99,27 @@ const subsidiariesData = [
   },
   {
     title: "HeadQR",
-    description: "Developer for HeadQR.",
+    description: "Developer of HeadQR.",
     image: "/assets/headqr.png",
-    link: "#",
+    link: "https://headqr.pages.dev",
+  },
+  {
+    title: "Lev868 Studios",
+    description: "Developer and partner of Lev868 Studios.",
+    image: "/assets/lev868.png",
+    link: "https://lev868.com",
+  },
+  {
+    title: "TurquoiseTNT",
+    description: "Partner of TurquoiseTNT.",
+    image: "/assets/tnt.png",
+    link: "https://turquoisetnt.one",
   },
   {
     title: "Zenity",
-    description: "Developer for Zenity.",
+    description: "Developer of Zenity.",
     image: "/assets/zenity.png",
-    link: "#",
+    link: "https://github.com/ZenityDevs",
   },
 ];
 
@@ -121,17 +133,6 @@ const contactData = [
     title: "Status",
     info: "See which services are up (or sadly down).",
     link: "https://status.sbdesigns.is-a.dev",
-  },
-  {
-    title: "Discord Server",
-    info: "Chat about anything, from transport, to coding, with fans and even our devs.",
-    link: "https://sbdev.zone.id/discord",
-  },
-
-  {
-    title: "Wallpapers",
-    info: "Download free wallpapers, made by us, to brighten up your devices!",
-    link: "https://sbdev.zone.id/wallpapers",
   },
 ];
 
