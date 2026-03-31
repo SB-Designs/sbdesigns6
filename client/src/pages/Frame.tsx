@@ -210,9 +210,11 @@ export const Frame = (): JSX.Element => {
       {/* Hero Section - Full Height */}
       <section className="min-h-screen flex items-center justify-center px-4 text-center relative overflow-hidden">
         <div className={`max-w-lg lg:max-w-xl mx-auto space-y-8 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <h1 className={`text-4xl lg:text-6xl xl:text-7xl font-bold leading-tight text-white transition-all duration-1200 flex items-center justify-center gap-3 ${isVisible ? 'animate-fade-in-up' : ''}`}>\n  Designing with Power\n  <img\n    className="h-[1em] w-auto"\n    alt="Power Icon"\n    src="/assets/icon.png"\n  />\n</h1>
+          <h1 className={`text-4xl lg:text-6xl xl:text-7xl font-bold leading-tight text-white transition-all duration-1200 ${isVisible ? 'animate-fade-in-up' : ''}`}>
+            Coding From Track to Taxiway
+          </h1>
           <p className={`text-base lg:text-xl text-white/90 font-medium transition-all duration-1200 delay-300 ${isVisible ? 'animate-fade-in-up' : ''}`}>
-            We're building Chelmsford Bus Simulator, in partnership with Lev868 Studios!
+            We're SB Designs, experienced in building travel and transport apps, games and more!
           </p>
           <Button
             className="bg-teal-500 hover:bg-teal-600 text-white px-8 py-3 rounded-full text-base font-medium shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 hover:-translate-y-1"
