@@ -358,9 +358,7 @@ export const Frame = (): JSX.Element => {
             />
             <span className="text-xl font-medium text-white">SB Designs</span>
           </div>
-          <p className="text-white/80 text-sm animate-fade-in-up delay-200" data-testid="text-copyright">@gosbdev
-            <br>
-              © SB Designs {new Date().getFullYear()}</p>
+          <p className="text-white/80 text-sm animate-fade-in-up delay-200" data-testid="text-copyright">@gosbdev | © SB Designs {new Date().getFullYear()}</p>
         </div>
       </footer>
     </div>
