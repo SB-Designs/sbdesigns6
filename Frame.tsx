@@ -1,12 +1,20 @@
-import React from 'react';
-import logo from './icon.png';
+{/* Existing content above the Subsidiaries section */}
 
-const HeroSection = () => {
-  return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <h1 style={{ margin: 0 }}>Designing with Power <img src={logo} alt='Logo' style={{ width: '20px', height: '20px', marginLeft: '8px' }} /></h1>
-    </div>
-  );
-};
+{/* Subsidiaries Section */}
+<section className="subsidiaries">
+  {/* Existing content */}
+</section>
 
-export default HeroSection;
+{/* Wallpapers Section */}
+<section className="wallpapers">
+  <div className="tile">
+    <h3>Mountain Peaks</h3>
+    {/* Any additional content for Mountain Peaks */}
+  </div>
+  <div className="tile">
+    <h3>Urban Skyline</h3>
+    {/* Any additional content for Urban Skyline */}
+  </div>
+</section>
+
+{/* Existing content below the Wallpapers section */}
