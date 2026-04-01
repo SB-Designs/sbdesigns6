@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 const navigationItems = [
   { label: "Projects", href: "#projects" },
   { label: "Companies", href: "#subsidiaries" },
-  { label: "Wallpapers", href: "#wallpapers" },
 ];
 
 const projectsData = [
@@ -79,7 +78,7 @@ const projectsData = [
     image: "/assets/wallpaper.png",
     status: null,
     statusColor: null,
-    link: "https://sbdev.zone.id/wallpapers",
+    link: "#wallpapers",
   },
   {
     title: "Zenity",
@@ -126,34 +125,16 @@ const subsidiariesData = [
 
 const wallpapersData = [
   {
-    title: "Sunset Aviation",
-    description: "Beautiful sunset with aircraft silhouette.",
-    image: "/assets/wallpaper-sunset.png",
-    link: "https://sbdev.zone.id/wallpapers/sunset-aviation",
+    title: "Stellar (2025)",
+    description: "Star themed wallpapers, with a slight grainy touch.",
+    image: "/assets/stellar.png",
+    link: "https://sbdev.zone.id/stellar",
   },
   {
-    title: "Urban Transport",
-    description: "Modern city transportation theme.",
-    image: "/assets/wallpaper-transport.png",
-    link: "https://sbdev.zone.id/wallpapers/urban-transport",
-  },
-  {
-    title: "Digital Horizon",
-    description: "Tech-inspired minimalist design.",
-    image: "/assets/wallpaper-horizon.png",
-    link: "https://sbdev.zone.id/wallpapers/digital-horizon",
-  },
-  {
-    title: "Railway Dreams",
-    description: "Scenic railway landscape wallpaper.",
-    image: "/assets/wallpaper-railway.png",
-    link: "https://sbdev.zone.id/wallpapers/railway-dreams",
-  },
-  {
-    title: "Sky & Mountains",
-    description: "Majestic mountain peaks at sunrise.",
-    image: "/assets/wallpaper-mountains.png",
-    link: "https://sbdev.zone.id/wallpapers/sky-mountains",
+    title: "Lumina (2026)",
+    description: "Dark sky themed wallpapers - black with a band of colour!",
+    image: "/assets/lumina.png",
+    link: "https://sbdev.zone.id/lumina",
   },
 ];
 
