@@ -73,14 +73,6 @@ const projectsData = [
     link: "https://trackle.pages.dev",
   },
   {
-    title: "Wallpaper Collection",
-    description: "Desktop and mobile wallpapers with our branding.",
-    image: "/assets/wallpaper.png",
-    status: null,
-    statusColor: null,
-    link: "#wallpapers",
-  },
-  {
     title: "Zenity",
     description: "A wellbeing and mental health app. (by Zenity Team)",
     image: "/assets/zenity.png",
