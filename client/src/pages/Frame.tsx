@@ -107,7 +107,7 @@ const subsidiariesData = [
     title: "Lev868 Studios",
     description: "Developer and partner of Lev868 Studios.",
     image: "/assets/lev868.png",
-    link: "https://lev868.com",
+    link: "http://lev868.dynv6.net",
   },
   {
     title: "TurquoiseTNT",
