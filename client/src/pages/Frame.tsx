@@ -22,15 +22,7 @@ const projectsData = [
     image: "/assets/cbs.png",
     status: "IN DEVELOPMENT",
     statusColor: "bg-orange-500",
-    link: "https://chelmsford.pages.dev",
-  },
-  {
-    title: "Duneb Browser",
-    description: "The most private browser. Ever.",
-    image: "/assets/duneb.png",
-    status: "IN DEVELOPMENT",
-    statusColor: "bg-orange-500",
-    link: "https://duneb.netlify.app",
+    link: "https://transport.pages.dev",
   },
   {
     title: "Echoes of a Dying World",
@@ -57,14 +49,6 @@ const projectsData = [
     link: "https://github.com/point2pointuk",
   },
   {
-    title: "ThrustByte",
-    description: "An aviation and tech blog.",
-    image: "/assets/thrustbyte.png",
-    status: null,
-    statusColor: null,
-    link: "https://thrustbyte.pages.dev",
-  },
-  {
     title: "Trackle",
     description: "The UK railway station game.",
     image: "/assets/trackle.png",
@@ -84,10 +68,10 @@ const projectsData = [
 
 const subsidiariesData = [
   {
-    title: "Point 2 Point",
-    description: "Joint venture with TurquoiseTNT.",
-    image: "/assets/point2point.png",
-    link: "https://point2point.is-a.dev",
+    title: "Project Transport",
+    description: "Joint venture with TurquoiseTNT and Lev868",
+    image: "/assets/pt.png",
+    link: "https://transport.pages.dev",
   },
   {
     title: "HeadQR",
@@ -95,11 +79,11 @@ const subsidiariesData = [
     image: "/assets/headqr.png",
     link: "https://headqr.pages.dev",
   },
-  {
-    title: "Lev868 Studios",
-    description: "Developer and partner of Lev868 Studios.",
+    {
+    title: "Lev868",
+    description: "Partner of Lev868.",
     image: "/assets/lev868.png",
-    link: "http://lev868.dynv6.net",
+    link: "https://lev868.dynv6.net",
   },
   {
     title: "TurquoiseTNT",
@@ -137,19 +121,9 @@ const contactData = [
     link: "mailto:hello@sbdesigns.is-a.dev",
   },
   {
-    title: "Whatsapp",
-    info: "+447484828585",
-    link: "https://wa.me/+447484828585",
-  },
-  {
     title: "Status",
     info: "See which services are up (or sadly down).",
     link: "https://status.sbdesigns.is-a.dev",
-  },
-  {
-    title: "Become a Beta Tester",
-    info: "Help test our new apps, games, and more!",
-    link: "https://sbdev.zone.id/tester",
   },
 ];
 
@@ -400,7 +374,7 @@ export const Frame = (): JSX.Element => {
             />  
             <span className="text-xl font-medium text-white">SB Designs</span>  
           </div>  
-          <p className="text-white/80 text-sm animate-fade-in-up delay-200" data-testid="text-copyright">@gosbdev | © SB Designs {new Date().getFullYear()}</p>
+          <p className="text-white/80 text-sm animate-fade-in-up delay-200" data-testid="text-copyright">© SB Designs {new Date().getFullYear()}</p>
         </div>  
       </footer>
     </div>
